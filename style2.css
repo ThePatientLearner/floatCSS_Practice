@@ -1,0 +1,203 @@
+body{
+    border: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+   
+}
+
+#contenedor{
+    margin: 2% 7% ;
+    border: 1px solid black;
+}
+
+/*Cabecera*/
+
+header{
+text-align: center;
+}
+
+header #imagen_header{
+    position: relative;
+}
+
+#enlaces_contacto{
+    position: absolute;
+    top: 0px;
+    right:20px;
+}
+
+#enlaces_contacto p{
+    display: inline-block;
+    font-size:large;
+}
+
+/* vamos al navegador de secciones*/
+
+nav{
+    background-color: darkblue;
+}
+
+nav h3{
+    display: inline-block;
+    color: white;
+    margin-right: 40px;
+}
+
+nav h3:hover{
+color: lightcoral;
+}
+
+nav h3:first-child{
+    margin-left: 60px;
+}
+
+/*Vídeo*/
+#contenedor #video iframe{
+    width: 100%;
+    height: 600px;
+}
+
+/*contenido articulo1*/
+
+/* Contenido articulo1 */
+#contenidos1 {
+   
+}
+
+#contenidos2 {
+    
+}
+
+.imagen_Texto1 {
+    padding: 3%;
+    overflow: hidden; /* Para evitar problemas de colapso de contenedor con los elementos flotantes */
+}
+
+.imagen_Texto1 #img1 {
+    width: 40%;
+    height: 400px;
+    float: left;
+}
+
+.imagen_Texto1 article,
+.imagen_Texto1 h2 {
+    width: 55%; /* Cambiado a 55% para dejar espacio entre la imagen y el texto */
+    float: right;
+}
+
+/* Contenido articulo2 */
+.imagen_Texto2 {
+    padding: 3%;
+    clear: both; /* Para limpiar los elementos flotantes de articulo1 y asegurar que el siguiente elemento inicie en una nueva línea */
+    overflow: hidden;
+}
+
+.imagen_Texto2 #img2 {
+    width: 40%;
+    height: 400px;
+    float: right;
+}
+
+.imagen_Texto2 article,
+.imagen_Texto2 h2 {
+    width: 55%;
+    float: left; /* Cambiado a left para invertir la posición de artículo y h2 */
+}
+
+/*comenzamos la primera parte del footer con la frase con separaciones*/
+
+#personas{
+    border-top: 1px solid grey;
+    border-bottom: 1px solid grey;
+}
+
+#personas h1{
+    text-align: center;
+    margin: 160px 5%;    
+}
+
+/*Aqui vamos al footer , separamos las dos frases en 2 bloques.*/
+
+/*primer bloque izquierdo */
+
+#sabias{
+    float: left;
+    margin-left:8%;
+    margin-top: 3%;
+    
+
+}
+
+#sabias h2{
+    text-align: center;
+    
+}
+
+#sabias img{
+    display: block;
+    margin: 0 auto; /* esto ayudó gpt no acabé de entender bien*/
+    width: 70% ; 
+}
+
+#sabias p{
+    font-weight: bold;
+    text-align: left;
+    line-height: 1.5em;
+}
+
+/*Segundo bloque derecho*/
+#contacto{
+    float: left;
+    margin-right:3%;
+    margin-top: 3%;
+    margin-left: 10%;
+    
+
+}
+
+#contacto h2{
+    text-align: center;
+}
+
+#contacto img{
+    display: block;
+    margin: 0 auto; /* esto ayudó gpt no acabé de entender bien*/
+    width: 70% ; 
+}
+
+#contacto p{
+    font-weight: bold;
+    text-align: left;
+    line-height: 1.5em;
+}
+
+#imagenes_footer{
+    clear: both;
+    padding-top: 2%;
+    overflow: hidden;
+}
+
+/*imagenes del footer */
+
+#imgf1 {
+    float: left;
+    margin-left: 7%;
+    width: 40%;
+    height: 370px ;
+}
+
+#imgf2 {
+    float: left;
+    width: 40%;
+    height: 400px ;
+    margin-left: 5%;
+}
+
+
+
+
+
+
+
+
+
